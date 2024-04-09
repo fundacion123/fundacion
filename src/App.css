@@ -471,19 +471,41 @@ a {
 }
 
 .dapp-warning {
-  margin-top: 1px; /* Agrega espacio encima del mensaje */
-  color: #ffffff; /* Texto blanco para contraste */
-  background-color: #ffcc00; /* Un color amarillo para atención, que combine con los colores del sitio */
-  padding: 10px 20px; /* Relleno adecuado para el mensaje */
-  border-radius: 5px; /* Bordes redondeados */
-  text-align: center; /* Centrar el texto del mensaje */
-  font-size: 16px; /* Un tamaño de fuente visible */
-  font-weight: bold; /* Texto en negrita para llamar la atención */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-  border: 1px solid #e6b800; /* Un borde que complemente el fondo amarillo */
-  display: block; /* Asegura que el mensaje ocupe su propia línea */
-  max-width: 100%; /* Ajusta el ancho al contenedor */
-  box-sizing: border-box; /* Asegura que el padding no aumente el ancho del elemento */
+  margin-top: 0px; /* Espacio aún menor entre el mensaje y el botón */
+  margin-left: auto;
+  margin-right: auto;
+  color: #333; /* Texto oscuro para mayor contraste */
+  background-color: #ffcc00; /* Fondo amarillo de atención */
+  padding: 10px 20px;
+  border-radius: 25px; /* Bordes más redondeados para efecto de nube */
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  max-width: 80%; /* Más estrecho por los lados */
+  box-sizing: border-box;
+  position: relative; /* Necesario para posicionar los pseudo-elementos */
+}
+
+/* Pseudo-elementos para efectos adicionales en los bordes */
+.dapp-warning:before,
+.dapp-warning:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px; /* Tamaño de los "círculos" */
+  height: 40px; /* Tamaño de los "círculos" */
+  background: #ffcc00; /* Mismo color de fondo */
+  border-radius: 50%; /* Hacerlos completamente redondos */
+  z-index: -1;
+}
+
+.dapp-warning:before {
+  left: -20px; /* Posicionar a la izquierda del cuadro de aviso */
+}
+
+.dapp-warning:after {
+  right: -20px; /* Posicionar a la derecha del cuadro de aviso */
 }
 
 /* CHAT */
