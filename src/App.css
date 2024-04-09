@@ -470,6 +470,24 @@ a {
   transform: scale(0.95); /* Efecto de clic */
 }
 
+.dapp-warning {
+  margin-top: 15px; /* Agrega espacio encima del mensaje */
+  color: #333; /* Un color oscuro que parece ser adecuado para el diseño */
+  background-color: #f8f9fa; /* Un fondo ligeramente gris, como los campos de formulario */
+  padding: 8px 12px; /* Algo de relleno para que el mensaje no esté pegado a los bordes */
+  border-radius: 4px; /* Bordes redondeados para suavizar la apariencia */
+  text-align: center; /* Centrar el texto del mensaje */
+  font-size: 14px; /* Un tamaño de fuente razonable que no sea ni muy grande ni muy pequeño */
+  border: 1px solid #ddd; /* Un borde sutil para definir el contorno del mensaje */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Una sombra ligera para darle profundidad */
+  display: block; /* Asegurarse de que ocupa su propia línea */
+  max-width: 400px; /* Un ancho máximo para que el mensaje no sea demasiado largo */
+  margin-left: auto; /* Estos dos aseguran que el mensaje */
+  margin-right: auto; /* esté centrado horizontalmente */
+}
+
+
+
 /* CHAT */
 .chat .message {
   margin: 10px;
