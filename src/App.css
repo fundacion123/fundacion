@@ -471,7 +471,7 @@ a {
 }
 
 .dapp-warning {
-  margin-top: 10px; /* Agrega espacio encima del mensaje */
+  margin-top: 1px; /* Agrega espacio encima del mensaje */
   color: #ffffff; /* Texto blanco para contraste */
   background-color: #ffcc00; /* Un color amarillo para atención, que combine con los colores del sitio */
   padding: 10px 20px; /* Relleno adecuado para el mensaje */
