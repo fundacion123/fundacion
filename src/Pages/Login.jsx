@@ -42,9 +42,9 @@ function Login() {
       <form className='form' onSubmit={handleSubmit}>
         <input className='input' placeholder='Your email' type='email' name='email' onChange={handleChange} value={form.email} />
         <input className='input' placeholder='Your password' type='password' name='password' onChange={handleChange} value={form.password} />
-        <button className='form-button'>Log In</button>
+        <button className='form-button'>Log In.</button>
         {/* Botón adicional "Go to Dapp" */}
-        <a href="http://www.ecode.es/" target="_blank" rel="noopener noreferrer" className='dapp-button'>Go to Dapp</a>
+        <a href="https://pepocasver.github.io/IEBS_Refutoken_Dapp/" target="_blank" rel="noopener noreferrer" className='dapp-button'>Go to Dapp</a>
         <Link to="/register">Not registered? Click here</Link>
       </form>
     </div>
