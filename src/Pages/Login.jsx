@@ -46,7 +46,7 @@ function Login() {
         {/* Botón adicional "Go to Dapp" */}
         <a href="https://pepocasver.github.io/IEBS_Refutoken_Dapp/" target="_blank" rel="noopener noreferrer" className='dapp-button'>Go to Dapp</a>
         {/* Nuevo mensaje de advertencia */}
-        <p className='dapp-warning'>Try with a modern browser <br /> or install the MetaMask plugin.</p>
+        <p className='dapp-warning'>Try with a modern browser <br /> or install the MetaMask plugin</p>
         <Link to="/register">Not registered? Click here</Link>
       </form>
     </div>
