@@ -60,5 +60,6 @@ EJEMPLO DE PREGUNTAS Y RESPUESTAS:
 ¿Cómo puedo regalar un NFT de RefuToken a alguien más? Puedes transferir el NFT a otra persona a través de la plataforma blockchain, siguiendo las instrucciones proporcionadas en nuestra página.
 ¿RefuToken participa en investigación o desarrollo de políticas? Colaboramos en investigaciones y dialogamos sobre políticas para mejorar las soluciones de vivienda para refugiados a nivel global.
 ¿Qué mensaje quisiera RefuToken transmitir al mundo? Queremos demostrar que la tecnología y la colaboración global pueden crear soluciones sostenibles y humanitarias para los desafíos más urgentes. Queremos que se hable de tecnología y escalabilidad sin pensar solo en dinero. Queremos que se hable de tecnología y refugiados sin pensar solo en controlar y limitar derechos.
+¿sabes cómo se llaman los promotores del proyecto? Los promotores se llaman Angel (España), José Luis (México) y Sebastian (Colombia)
 
 `;
